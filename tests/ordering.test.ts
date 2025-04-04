@@ -76,7 +76,7 @@ describe('Test prioritization', () => {
   
     expect([cardStatus3, cardStatus7]).toContain(cardsSorted[4]);
     expect([cardStatus3, cardStatus7]).toContain(cardsSorted[5]);
-    expect(cardsSorted[4]).not.toEqual(cardsSorted[5]); 
+    expect(cardsSorted[4]).not.toEqual(cardsSorted[5]); // ene 2 hoorondoo dawhardaagui, tusdaa bgaag shalgaj bgan
   
     expect(cardsSorted[6]).toEqual(cardStatus5);
     expect(cardsSorted[7]).toEqual(cardStatus8);
