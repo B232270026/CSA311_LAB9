@@ -1,4 +1,4 @@
-Composite -- Describes a group of objects that are treated the same way as a single instance of the same type of object.
+CopComposite -- Describes a group of objects that are treated the same way as a single instance of the same type of object.
 Strategy -- Enables selecting an algorithm at runtime by providing a corresponding object implementing the algorithm.
 Template method -- Allows subclasses to specialize an algorithm by overriding specific methods that represent holes in the algorithm.
 Iterator -- Traverse a container and access the container's elements without knowing the internals of the container.
